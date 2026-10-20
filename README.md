@@ -17,11 +17,30 @@ A Playwright script that fills in and submits the "Request a call back" form on 
 
 ## How to run
 
-```bash
-npm install
-npx playwright install chromium
-npm start
-```
+1. Clone the repository and go into its folder:
+
+   ```bash
+   git clone https://github.com/Bigfoot619/JonesAutomation.git
+   cd JonesAutomation
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Download the Chromium browser that Playwright uses (only needed once):
+
+   ```bash
+   npx playwright install chromium
+   ```
+
+4. Run the script:
+
+   ```bash
+   npm start
+   ```
 
 Expected output:
 
